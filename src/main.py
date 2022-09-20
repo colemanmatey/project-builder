@@ -2,8 +2,7 @@
 
 """
 
-
-from builder import Builder
+from core.builder import Builder
 
 
 if __name__ == '__main__':

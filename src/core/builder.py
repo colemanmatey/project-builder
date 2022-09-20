@@ -5,12 +5,7 @@
 import json
 from pathlib import Path
 
-
-# Path of the root directory
-BASE_DIR = Path(__file__).resolve().parent
-
-# Path of output
-BUILD_DIR = BASE_DIR / 'build'
+from .settings import BUILD_DIR, TEMP_DIR
 
 
 class Builder:
@@ -32,7 +27,7 @@ class Builder:
         """
         Read project structure from a JSON file
         """
-        with open(BASE_DIR / filename, 'r') as f:
+        with open(TEMP_DIR / filename, 'r') as f:
             return json.load(f)
 
 
