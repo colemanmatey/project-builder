@@ -10,7 +10,7 @@ from .settings import BUILD_DIR, TEMP_DIR
 
 class Builder:
 
-    def __init__(self, root_dir=None, index_file=None):
+    def __init__(self, root_dir="", index_file=""):
         """
         Create root directory and index file
         """
