@@ -2,10 +2,10 @@
 
 """
 
-from core.builder import Builder
+from sassbuilder import SassBuilder
 
 
 if __name__ == '__main__':
-    sass = Builder("sass", "main.scss")
+    sass = SassBuilder("sass")
     structure = sass.load('sass.json')
     sass.build(structure)
