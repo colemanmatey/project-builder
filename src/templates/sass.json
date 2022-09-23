@@ -1,41 +1,55 @@
 {
     "abstracts": [
         "_index.scss",
-        "_colors.scss",
-        "_globals.scss",
         "_functions.scss",
+        "_variables.scss",
+        "_helpers.scss",
         "_maps.scss",
         "_mixins.scss",
-        "_helpers.scss",
         "_placeholders.scss"
     ],
     "vendors": [
         "_index.scss",
-        "_bootstrap.scss",
         "_normalize.scss",
+        "_bootstrap.scss",
         "_jqueryui.scss"
     ],
     "base": [
         "_index.scss",
-        "_reset.scss", 
-        "_grid.scss",
-        "_typography.scss"
+        "_reset.scss",
+        "_typography.scss",
+        "_colors.scss"
     ],
     "layout": [
         "_index.scss",
-        "_navigation.scss",
         "_header.scss",
-        "_footer.scss",
-        "_sidebar.scss"
+        "_navigation.scss",
+        "_content.scss",
+        "_sidebar.scss",
+        "_footer.scss"
     ],
     "components": [
         "_index.scss",
-        "_buttons.scss",
+        "_accordion.scss",
+        "_alert.scss",
+        "_badge.scss",
+        "_breadcrumb.scss",
+        "_button.scss",
+        "_card.scss",
         "_carousel.scss",
-        "_cover.scss",
         "_dropdown.scss",
-        "_forms.scss",
-        "_hamburger.scss"
+        "_form.scss",
+        "_hamburger.scss",
+        "_media.scss",
+        "_modal.scss",
+        "_pagination.scss",
+        "_placeholders.scss",
+        "_popovers.scss",
+        "_progress.scss",
+        "_spinner.scss",
+        "_thumbnail.scss",
+        "_toasts.scss",
+        "_tooltips.scss"
     ],
     "pages": [
         "_index.scss",
@@ -43,7 +57,27 @@
         "_about.scss",
         "_services.scss",
         "_blog.scss",
+        "_projects.scss",
         "_contact.scss"
+    ],
+    "utilities": [
+        "_index.scss",
+        "_background.scss",
+        "_borders.scss",
+        "_colors.scss",
+        "_containers.scss",
+        "_display.scss",
+        "_flex.scss",
+        "_grid.scss",
+        "_float.scss",
+        "_opacity.scss",
+        "_overflow.scss",
+        "_position.scss",
+        "_shadows.scss",
+        "_spacing.scss",
+        "_sizing.scss",
+        "_typography.scss",
+        "_visibility.scss"
     ],
     "themes": [
         "_index.scss",
